@@ -1,0 +1,6 @@
+# To set your custom php.ini, add the following line to this file:
+# suphp_configpath /home/yourusername/path/to/php.ini
+#AuthName "public_html"
+#AuthUserFile "/home/socia150/.htpasswds/public_html/passwd"
+ErrorDocument 404 http://www.sociallyoutward.com/404.html
+

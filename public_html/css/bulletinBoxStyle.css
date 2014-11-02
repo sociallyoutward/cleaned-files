@@ -1,0 +1,52 @@
+#bulletinBox{
+	width:475px;
+	height:50px;
+}
+
+#topBox:hover{
+	background-color:#BACBED;
+	cursor:pointer;
+}
+
+#topBox, #bottomBox{
+	position:absolute;
+	height:100%;
+	top:0px;
+}
+
+#topBox{
+	width:34%;
+	background-color:#7094DB;
+	border-right:1px solid #7094DB;
+}
+
+#topBox p, #bottomBox ul li{
+	position:relative;
+	top:13px;
+}
+
+#topBox p{
+	margin-left:10px;
+	margin-right:10px;
+}
+
+#bottomBox{
+	left:34%;
+	width:75%;
+	display:none;
+	opacity:0.0;
+	background-color:#BACBED;
+}
+
+div#bottomBox p{
+	top:15px;
+    padding: 0px 5% 0px 5%;
+	color:white;
+	display:inline;
+	opacity: 0;
+}
+
+div#bottomBox a {
+	position:relative;
+	top:12px;
+}

@@ -1,0 +1,204 @@
+    html, body, div, span, applet, object, iframe,
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+
+a, abbr, acronym, address, big, cite, code,
+
+del, dfn, em, img, ins, kbd, q, s, samp,
+
+small, strike, strong, sub, sup, tt, var,
+
+b, u, i, center,
+
+dl, dt, dd, ol, ul, li,
+
+fieldset, form, label, legend,
+
+table, caption, tbody, tfoot, thead, tr, th, td,
+
+article, aside, canvas, details, embed, 
+
+figure, figcaption, footer, header, hgroup, 
+
+menu, nav, output, ruby, section, summary,
+
+time, mark, audio, video {
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: white;
+    font-family: 'lato', Tahoma, Arial, sans-serif;
+    vertical-align: baseline;
+}
+
+p{
+    margin-top: 20px;
+    text-align: center;
+}
+
+body
+
+{
+
+background-color: #A9BFE9;
+
+right: -50px;
+
+}
+
+
+
+.header img{
+
+    max-width: 700px;
+
+}
+
+.ls {
+
+    font-style:italic;
+
+}
+
+
+
+.sp {
+
+    font-style:italic;
+
+}
+
+
+
+.header{
+    background-color: #7094DB;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 15px 3px 15px 3px;
+    padding-bottom: 15px;
+    border-bottom: solid 1px white;
+}
+
+#login_form{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#lText{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.lInput{
+    font-size: 1.1em;
+    width:180px;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+
+#lOther{
+    font-size: 1em;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 380px;
+}
+
+#fp{
+    margin-left: 25px;
+}
+
+#kmli{
+    margin-right:25px;
+
+}
+
+#unplug{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+    width: 360px;
+}
+
+#socialMedia{
+
+    padding-left: 0;
+
+    padding-right: 0;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    display: block;
+
+    width: 230px;
+
+}
+
+
+
+.sm{
+
+    width:90px;
+
+    margin:10px;
+
+}
+
+
+
+#connect{
+
+    text-align: center;
+
+}
+
+
+
+#bubble{
+
+    position:absolute;
+
+    top:100;
+
+    left:100;
+}
+
+.subbutton{
+    color: black;
+    background-color: white;
+    border: 2px solid #7094DB;
+    font-size: 1em;
+    margin-top: 25px;
+    margin-left: .5px;
+    margin-right: .5px;
+    padding:5px;
+    border-radius: 2px;
+    width:180px;
+    text-decoration:none;
+}
+
+#fb_login{
+
+    margin-top:20px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    display: block;
+
+    width: 67px;
+
+}

@@ -1,0 +1,20 @@
+div#can{
+	width:60%; 
+	position:relative; 
+	left:-250px;
+	border:2px solid green;
+}
+
+canvas#myCanvas{
+	position:relative; 
+	left:20%;
+}
+
+canvas#navCanvas{
+	position:relative; 
+	height:auto;
+	width:auto;
+	left:78%; 
+	top:0px;
+	border:1px solid red;
+}

@@ -1,0 +1,37 @@
+body{
+    overflow: hidden;
+}
+
+#can{
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+	display: block;
+
+	width:500px;
+
+	float: right;
+
+}
+
+
+
+#navCanvas{
+
+	float:right;
+
+	display: block;
+
+	margin-bottom: 15px;
+
+}
+
+
+
+#addInterestMenu{
+
+	visibility: hidden;
+
+}

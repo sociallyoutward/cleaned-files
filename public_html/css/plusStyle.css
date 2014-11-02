@@ -1,0 +1,77 @@
+#can #plusDiv {
+	position:absolute;
+	top:0;
+	left:0;
+	height:60px;
+	width:60px;
+    display:none;
+    z-index: 2;
+}
+#plusDiv img:hover {
+	cursor:pointer;
+}
+
+#editInt {
+	position:fixed;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	-webkit-transform:translate(-50%, -50%);
+	-moz-transform:translate(-50%, -50%);
+	height:65%;
+	width:35%;
+	display:none;
+	z-index: 5;
+	background-color: rgba(186, 203, 237, .65);            /*light blue rgb value */
+	border-radius: 25px;
+	border: 5px solid #7094DB;
+	overflow:auto;
+	color:white;
+}
+.nameContainer {
+	position:relative;
+	height: 52px;
+	min-height:52px;
+	max-height:52px;
+	width:100%;
+	top:0;
+	left:0;
+}
+#intList div {
+	background-color: rgba(230, 0, 0, .9);
+	border-top:1px solid #7094DB;
+	border-bottom: 1px solid #7094DB;
+}
+#editInt .has {
+	background-color: rgba(0, 230, 0, .9);
+}
+#editInt img {
+	cursor: pointer;
+}
+#editInt img.none {
+	display:none;
+}
+.intName {
+	position:absolute;
+	left: 50%;
+    top: 1em;
+    transform:translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+    -moz-transform:translate(-50%, -50%);
+    height: 1em;
+    width: 28%;
+}
+#plsimg:hover {
+	cursor:pointer;
+}
+#myCanvas {
+	z-index: 1;
+}
+#dimScreen {
+	position:fixed;
+	height:100%;
+	width:100%;
+	z-index: 3;
+	background-color: rgba(192, 192, 192, .8);
+	display:none;
+}
