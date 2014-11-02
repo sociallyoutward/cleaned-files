@@ -1,0 +1,24 @@
+
+/* Activity Feed Styles */
+
+.activityBox{
+    height: 88px;
+    margin-top: 10px;
+    border: solid 2px #ccc;
+    display: inline-flex;
+    width: 100%;
+}
+
+.activityIcon{
+    width: 10%;
+    background-color: #e2e2e2;
+    border-right: 2px solid #ccc;
+    height: 84px;
+    min-width: 75px;
+}
+
+.activityFeed{
+    height: 84px;
+    display: inline;
+    padding: 5px;
+}
