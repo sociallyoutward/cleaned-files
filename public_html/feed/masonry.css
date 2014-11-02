@@ -1,0 +1,35 @@
+.item {
+    width: 290px;
+    height:290px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    border: 2px solid #ccc;
+    background: #ffeeaa;
+    border-radius: 5px;
+    padding:10px;
+    overflow:scroll;
+}
+textarea {
+	resize:none;
+}
+
+.title{
+	font-size: 20pt;
+	margin-bottom: 10px;
+}
+
+.btn{
+    box-shadow: 3px 3px 5px #ccc;
+    cursor: auto;
+}
+
+.btn-primary{
+    background-color: #ffb380;
+    border: #ffb380;
+    margin-bottom: 10px;
+}
+
+.btn-primary:hover{
+    background-color: #ffb380;
+}

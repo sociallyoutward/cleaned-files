@@ -1,0 +1,45 @@
+
+/* Socially Outward Calendar Styles */
+
+a.pull-left.event{
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+}
+
+.cal-day-inmonth{
+    margin-top: 0px;
+    margin-right: 0;
+}
+
+.events-list{
+    padding: 5px;
+    position: relative;
+    overflow: visible;
+}
+
+span.pull-right{
+    margin-top: 5px;
+    margin-right: 5px;
+
+}
+
+.event-sports{
+    background-color: pink;
+}
+
+.event-foodnbev{
+    color: yellow;
+}
+
+.event-rec{
+    color: orange;
+}
+
+.event-seasonal{
+    color: blue;
+}
+
+.container{
+    margin-bottom: 20px;
+}

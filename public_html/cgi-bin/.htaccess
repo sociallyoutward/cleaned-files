@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "cgi-bin"
+AuthUserFile "/home/socia150/.htpasswds/public_html/cgi-bin/passwd"
+require valid-user

@@ -1,0 +1,148 @@
+
+html, body, div, span, applet, object, iframe,
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+
+a, abbr, acronym, address, big, cite, code,
+
+del, dfn, em, img, ins, kbd, q, s, samp,
+
+small, strike, strong, sub, sup, tt, var,
+
+b, u, i, center,
+
+dl, dt, dd, ol, ul, li,
+
+fieldset, form, label, legend,
+
+table, caption, tbody, tfoot, thead, tr, th, td,
+
+article, aside, canvas, details, embed, 
+
+figure, figcaption, footer, header, hgroup, 
+
+menu, nav, output, ruby, section, summary,
+
+time, mark, audio, video {
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'lato', Tahoma, Arial, sans-serif;
+}
+
+.name{
+    font-size: 3em;
+}
+
+.tplogo{
+    margin-left: 40px;
+}
+
+#lText{
+
+	padding-left: 0;
+
+    padding-right: 0;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    display: block;
+
+    width: 390px;
+
+}
+
+.linput{
+    margin-right:1%;
+    margin-top: 20px;
+    border: solid #7094DB 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    font-family: 'lato', Tahoma, Arial, sans-serif;
+    font-size: 1.1em;
+    display: inline;
+}
+
+.linputSmall{
+    width:180px;
+    font-family: 'lato', Tahoma, Arial, sans-serif;
+    font-size: 1.1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: white;
+    border: 2px solid #7094DB;
+}
+
+.linputLarge{
+    width: 180px;
+}
+
+#creation_form{
+    margin-left:6%;
+}
+
+.bday{
+    font-family: 'lato', Tahoma, Arial, sans-serif;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+.sel{
+
+	width:7%;
+
+	margin-top:.25%;
+
+}
+
+#submitButton{
+
+	margin-top: 1%;
+
+	width:15%;
+
+}
+
+#recaptcha{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#otherLogo{
+
+	position: absolute;
+
+	left:85%;
+
+	top:80%;
+
+	width:12%;
+
+	color: white;
+
+	z-index: 7;
+
+
+
+
+
+}
+
+#olImage{
+
+	width:40%;
+
+	display: block;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+}
